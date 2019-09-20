@@ -1,0 +1,31 @@
+.page_header{
+	text-align: center;
+	background-color: #a52a2a;
+	color: white;
+	font-size: 3em;
+}
+.image{
+	width: 100%;
+}
+section{
+	font-size: 18px;
+}
+em{
+	color: blue;
+}
+span{
+	color: blue;
+}
+.car{
+	display: inline-block;
+	border: dashed;
+}	
+.cars_section{
+	text-align: center;
+}
+footer{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
