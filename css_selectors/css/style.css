@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #373f41;
+}
+
+.header {
+	background-color: #474e50;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color: #ef887a;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.plans {
+	min-width: 290px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.element {
+	margin-bottom: 20px;
+	list-style-type: none;
+}
+
+.element-list {
+	border-bottom: 2px solid white;
+    border-top: 2px solid white;
+	padding: 10px;
+}
+
+.element-list:nth-child(even) {
+	background-color: #85849a;
+	border-bottom: 2px solid #85849a;
+    border-top: 2px solid #85849a;
+}
+
+.element-list:nth-child(odd) {
+	background-color: #78778f;
+	border-bottom: 2px solid #78778f;
+    border-top: 2px solid #78778f;
+
+}
+
+.element-list:hover {
+	transition: all .1s ease-in;
+	border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    background-color: #5f6174;
+}
+
+.element-list:active {
+	background-color: #ef887a;
+}
+
+ input:checked+p {
+ 	text-decoration: line-through;
+}
+
+[type="checkbox"] {
+	margin-right: 5px;
+}
+
+.text_p {
+	display: inline-block;
+	color: white;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.text_coment::before {
+	content: "(";
+}
+.text_coment::after {
+	content: ")";
+}
+
+[type="submit"] {
+	width: 500px;
+	background-color: #474e50;
+    border: none;
+    padding: 10px;
+    color: #ef887a;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
