@@ -43,16 +43,13 @@ h1 {
 }
 
 .element__label:nth-child(even) {
-	background-color: #85849a;
 	border-bottom: 2px solid #85849a;
     border-top: 2px solid #85849a;
 }
 
 .element__label:nth-child(odd) {
-	background-color: #78778f;
 	border-bottom: 2px solid #78778f;
     border-top: 2px solid #78778f;
-
 }
 
 .element__label:hover {
@@ -64,6 +61,14 @@ h1 {
 
 .element__label:active {
 	background-color: #ef887a;
+}
+
+.element-list:nth-child(even) {
+	background-color: #85849a;
+}
+
+.element-list:nth-child(odd) {
+	background-color: #78778f;
 }
 
  input:checked+p {
