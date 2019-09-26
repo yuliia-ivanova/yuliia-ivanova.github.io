@@ -37,33 +37,32 @@ h1 {
 	list-style-type: none;
 }
 
-.element-list {
-	border-bottom: 2px solid white;
-    border-top: 2px solid white;
+.element__label {
+	display: block;
 	padding: 10px;
 }
 
-.element-list:nth-child(even) {
+.element__label:nth-child(even) {
 	background-color: #85849a;
 	border-bottom: 2px solid #85849a;
     border-top: 2px solid #85849a;
 }
 
-.element-list:nth-child(odd) {
+.element__label:nth-child(odd) {
 	background-color: #78778f;
 	border-bottom: 2px solid #78778f;
     border-top: 2px solid #78778f;
 
 }
 
-.element-list:hover {
+.element__label:hover {
 	transition: all .1s ease-in;
 	border-bottom: 2px solid white;
     border-top: 2px solid white;
     background-color: #5f6174;
 }
 
-.element-list:active {
+.element__label:active {
 	background-color: #ef887a;
 }
 
