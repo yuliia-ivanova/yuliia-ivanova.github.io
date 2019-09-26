@@ -52,26 +52,26 @@ h1 {
     border-top: 2px solid #78778f;
 }
 
-.element__label:hover {
+#label:hover {
 	transition: all .1s ease-in;
 	border-bottom: 2px solid white;
     border-top: 2px solid white;
     background-color: #5f6174;
 }
 
-.element__label:active {
+#label:active {
 	background-color: #ef887a;
 }
 
-.element-list:nth-child(even) {
+.element-list:nth-child(even)>label{
 	background-color: #85849a;
 }
 
-.element-list:nth-child(odd) {
+.element-list:nth-child(odd)>label {
 	background-color: #78778f;
 }
 
- input:checked+p {
+input:checked+p {
  	text-decoration: line-through;
 }
 
@@ -103,4 +103,6 @@ h1 {
     font-size: 20px;
     cursor: pointer;
 }
+
+
 
