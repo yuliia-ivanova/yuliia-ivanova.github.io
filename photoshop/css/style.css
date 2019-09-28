@@ -43,11 +43,11 @@ h3 {
 	padding: 2px;
 }
 
-ul {
+.nav-main {
 	margin: 0;
 }
 
-li:not(:last-child) {
+.nav-icon:not(:last-child) {
 	margin-right: 20px;
 }
 
