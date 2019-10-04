@@ -91,6 +91,16 @@ body {
 	padding: 200px 120px 35px;
 }
 
+.main-text::before {
+	content: "";
+    display: block;
+    border: 1px solid #b5b5b5;
+    height: 123%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
 .main-text__author-date {
 	text-transform: uppercase;
 	color: #bababa;
