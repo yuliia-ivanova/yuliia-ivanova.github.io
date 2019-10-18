@@ -1,0 +1,90 @@
+.blog {
+	display: flex;
+  	flex-flow: row wrap;
+  	align-content: space-between;
+  	justify-content: space-between;
+   	min-height: 1180px;
+   	margin-bottom: 40px;
+   	padding: 40px;
+   	text-transform: uppercase;
+
+	&-main {
+		background: linear-gradient(rgba(0, 0, 0, 0), #000), url(../img/car.png);
+		max-width: 740px;
+
+		&__link {
+			display: flex;
+			justify-content: flex-end;
+			flex-direction: column;
+			min-width: 740px;
+			height: 540px;
+			padding: 40px;
+			text-decoration: none;
+			color: $text-title;
+			font-size: 32px;
+		}
+	}
+
+	&-list {
+		max-width: 360px;
+
+		&__link {
+			display: flex;
+			flex-direction: row;
+			background-color: $bg-blog;
+			justify-content: flex-between;
+			flex-direction: column;
+			min-width: 360px;
+			height: 540px;
+			text-decoration: none;
+			color: $text-subtitle;
+			font-size: 19px;
+		}
+
+		&__image {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__date {
+		color: $text-date;
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+
+}
+
+.blog-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 40px 25px;
+	height: 100%;
+		
+		&__image {
+			width: 64px;
+			height: 64px;
+		}
+}
+
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+
+		&__image {
+			margin-right: 15px;
+		}
+
+		&__text {
+			color: $text-load;
+			font-size: 13px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+}
+
+.action:hover {
+	box-shadow: 0 0 5px rgba(80,80,80,.8);
+}
