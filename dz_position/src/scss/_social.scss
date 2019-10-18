@@ -17,7 +17,7 @@
 		opacity: 0;
 	}
 
-	&__list {
+	&__list:not(:last-child) {
 		margin-right: 5px;
 	}
 
@@ -30,19 +30,13 @@
 	}
 }
 
-.social__list:last-child {
-	margin-right: 0px;
-}
-
 .social__item:hover {
 	background-color: $bg-hover;
 	opacity: 1;
 	transition: all .3s ease;
-
 }
 
 .social__link:hover {
 	background-color: $bg-link;
 	transition: all .3s ease;
-
 }
