@@ -1,0 +1,47 @@
+.about-heading {
+	text-align: center;
+	margin-bottom: 60px;
+
+	&__title {
+		font-family: "LatoBold";
+		font-size: 34px;
+		text-transform: uppercase;
+		margin-bottom: 70px;
+	}
+
+	&__text {
+		font-family: "LatoLight";
+		text-transform: capitalize;
+		max-width: 570px;
+		margin: 0 auto;
+	}
+}
+
+.about-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.group-member {
+	display: flex;
+	flex-flow: column wrap;
+
+	&__image {
+		width: 285px;
+		height: 285px;
+		position: relative;
+	}
+
+	&__name {
+		font-family: "LatoBold";
+		font-size: 18px;
+		text-transform: capitalize;
+		margin-bottom: 10px;
+	}
+
+	&__position {
+		font-family: "LatoLight";
+		text-transform: capitalize;
+	}
+}
