@@ -1,0 +1,37 @@
+.about-page {
+	background-color: $bg-about;
+	color: $text-about;
+
+}
+
+.about {
+	display: flex;
+
+	&-content {
+		width: 100%;
+		max-width: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		&__title {
+			font-family: "RalewayBold";
+			font-size: 90px;
+			text-transform: capitalize;
+			margin-bottom: 35px;
+
+		}
+
+		&__text {
+			font-family: "RalewayLight";
+			font-size: 17px;
+			line-height: 27px;
+
+		}
+
+		&__text:not(:last-child) {
+			margin-bottom: 30px;
+
+		}
+	}
+}
