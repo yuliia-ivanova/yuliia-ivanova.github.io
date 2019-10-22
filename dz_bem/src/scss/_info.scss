@@ -9,8 +9,7 @@
 	justify-content: space-between;
 	flex-direction: column;
 	height: 100vh;
-	// position: relative;
-
+	
 	&-header {
 		display: flex;
 		justify-content: space-between;
@@ -69,8 +68,8 @@
 	&__anchor {
 		display: flex;
 		justify-content: center;
-		// position: absolute;
-		bottom: 70px;
+		padding: 20px 0;
+		bottom: 0px;
 		right: 50%;
 	}
 }
