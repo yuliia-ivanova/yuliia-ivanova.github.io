@@ -1,7 +1,6 @@
 .about-page {
 	background-color: $bg-about;
 	color: $text-about;
-
 }
 
 .about {
@@ -19,19 +18,16 @@
 			font-size: 90px;
 			text-transform: capitalize;
 			margin-bottom: 35px;
-
 		}
 
 		&__text {
 			font-family: "RalewayLight";
 			font-size: 17px;
 			line-height: 27px;
-
 		}
 
 		&__text:not(:last-child) {
 			margin-bottom: 30px;
-
 		}
 	}
 }
