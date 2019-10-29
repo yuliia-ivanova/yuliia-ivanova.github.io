@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Quicksand";
 }
 
 .container {
@@ -11,11 +12,22 @@
 	padding: 0 15px;
 }
 
+.wrapper {
+	background: url("../img/bg.png");
+	width: 100%;
+	max-width: 400px;
+	min-height: 494px;
+	margin: 0 auto;
+	// display: flex;
+	// justify-content: center;
+	padding: 50px 70px 55px;
+}
+
 ul {
 	list-style: none;
 	li {
 		a {
-			display: flex;
+			display: inline-flex;
 			text-decoration: none;
 		}
 	}
