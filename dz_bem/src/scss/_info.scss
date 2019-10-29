@@ -1,7 +1,9 @@
 .main-page {
 	background: url(../img/header.jpg);
 	color: $text-info;
-	padding: 20px 0 50px;
+	padding: 0 0 50px;
+	background-size: cover;
+
 }
 
 .info {
@@ -65,7 +67,7 @@
 		}
 	}
 
-	&__anchor {
+	&-anchor {
 		display: flex;
 		justify-content: center;
 		padding: 20px 0;
