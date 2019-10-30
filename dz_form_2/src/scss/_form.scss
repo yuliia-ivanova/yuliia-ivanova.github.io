@@ -1,6 +1,5 @@
 .form-nav {
-	display: flex;
-	
+		
 	&__list {
 		display: flex;
 		margin-bottom: 50px;
@@ -13,18 +12,81 @@
 	&__link {
 		border-bottom: 2px solid transparent;
 		padding: 4px 0;
+		font-size: 18px;
+		color: $text-color;
+		opacity: .6;
 
 		&:hover {
-			color: $text-color;
+			opacity: 1;
 			border-bottom: 2px solid $hover;
+			transition: all .3s ease;
 		}
 
 		&:active {
 			color: $hover;
 		}
+	}
+}
+
+.form-field {
+	// margin-bottom: 50px;
+
+	&__text {
+		font-family: "Quicksand";
+		font-size: 16px;
+		text-transform: capitalize;
+		margin-bottom: 10px;
+
+	}
+
+	&__input {
+		display: flex;
+		width: 100%;
+		padding: 10px;
+		background: none;
+		border: 2px solid rgba(251,251,251,.6);
+		overflow: none;
+		color: $text-color;
+	}
+
+	&__error {
+		color: $error;
+		font-size: 12px;
+		visibility: hidden;
 
 
 	}
 
+	&__checkbox {
 
+		&__checkbox-btn {
+
+		}
+
+		&__checkbox-text {
+			
+		}
+
+	}
+}
+ .form-field__input:invalid+.form-field__error {
+ 	visibility: visible;
+ }
+.form-btn {
+
+}
+
+.form-footer {
+
+	&__list {
+
+	}
+
+	&__item {
+
+	}
+
+	&__link {
+
+	}
 }

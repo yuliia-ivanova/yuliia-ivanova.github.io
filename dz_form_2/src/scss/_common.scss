@@ -2,9 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Quicksand";
 }
 
+body {
+	background-color: $bg-color;
+	color: $text-color;
+	font-family: "Quicksand";
+	font-weight: 700;
+}
+ 
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -13,14 +19,19 @@
 }
 
 .wrapper {
+	padding: 50px 0;
+}
+
+.inner {
 	background: url("../img/bg.png");
 	width: 100%;
 	max-width: 400px;
-	min-height: 494px;
+	min-height: 493px;
 	margin: 0 auto;
-	// display: flex;
-	// justify-content: center;
+	display: flex;
+	flex-direction: column;
 	padding: 50px 70px 55px;
+	box-shadow: 0 10px 10px rgba(52, 73, 97, .5);
 }
 
 ul {
