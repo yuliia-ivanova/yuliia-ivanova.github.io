@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>form</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/fav/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+        <div class="wrapper">
+            <div class="inner sign">
+                <form action="#" method="get" class="form-field" id="data">
+                    <ul class="form-nav__list">
+                        <li class="form-nav__item">
+                           <a href="index.html#" class="form-nav__link">Sign in</a>
+                        </li>
+                        <li class="form-nav__item">
+                            <a href="join.html#" class="form-nav__link">Join us</a>
+                        </li>
+                    </ul>
+                    <div class="form">
+                        <label for="username" class="form__label">username</label>
+                        <input class="form__input" type="text" autocomplete="off" autofocus  required id="username" name="username" minlength="7">
+                        <div class="form__error">min value of input 7 simbols</div>
+                    </div>
+                    <div class="form">
+                        <label for="password" class="form__label">password</label>
+                        <input class="form__input" type="password" autocomplete="off" required id="password" name="password" minlength="7">
+                        <div class="form__error">min value of input 7 simbols</div>
+                    </div>
+                    <div class="form-checkbox">
+                        <input class="form-checkbox__btn" type="checkbox" id="checkbox" checked>
+                        <label for="checkbox" class="form-checkbox__label">Keep me signed in</label>
+                    </div>
+                    <button type="submit" class="form-btn" form="data">sign in</button>
+                    <div class="form-footer">
+                        <ul class="form-footer__list">
+                            <li class="form-footer__item">
+                                <a href="#" class="form-footer__link">Forgot password</a>
+                            </li>
+                            <li class="form-footer__item">
+                                <a href="#" class="form-footer__link">Create an account</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+	<script src="js/bundle.js"></script>
+</body>
+</html>
