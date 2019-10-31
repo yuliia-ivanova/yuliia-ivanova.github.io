@@ -3,48 +3,39 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .form-nav {
-
     &__list {
         display: flex;
         margin-bottom: 50px;
     }
-
     &__item:not(:last-child) {
         margin-right: 25px;
     }
-    
     &__link {
         border-bottom: 2px solid transparent;
         padding: 4px 0;
         font-size: 18px;
         color: $text-color;
         opacity: .6;
-       
         &:hover {
             opacity: 1;
             border-bottom: 2px solid $hover;
             transition: all .3s ease;
         }
-
         &:active {
             color: $hover;
         }
     }
 }
-
 .form {
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
-    
     &__label {
         font-size: 16px;
         text-transform: capitalize;
         margin-bottom: 10px;
     }
-
     &__input {
         padding: 10px;
         background: none;
@@ -52,35 +43,30 @@
         overflow: none;
         color: $text-color;
     }
-
     &__error {
         color: $error;
         font-size: 12px;
         visibility: hidden;
     }
 }
-
 .form-checkbox {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 40px;
-    
     &__btn {
         width: 16px;
         height: 16px;
         margin-right: 5px;
+        background-color: $check;
     }
-
     &__label {
         font-size: 13px;
     }
 }
-
 .form__input:invalid+.form__error {
     visibility: visible;
 }
-
 .form-btn {
     width: 100%;
     padding: 10px 0;
@@ -90,18 +76,15 @@
     background-color: $check;
     border: none;
     margin-bottom: 17px;
-    
     &:hover{
         color: $text-color;
         background-color: $hover;
     }
-    
     &:active{
         color: $check;
         background-color: $text-color;
     }
 }
-
 .form-footer {
     &__list {
         display: flex;
