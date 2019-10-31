@@ -102,39 +102,25 @@
     }
 
     &__join {
-    // width: 100%;
-    // padding: 10px 0;
-    // font-size: 18px;
-    // color: $text-color;
-    // text-transform: capitalize;
-    // background-color: $check;
-    // border: none;
-    margin-bottom: 0;
-    
-    // &:hover{
-    //     color: $text-color;
-    //     background-color: $hover;
-    // }
-    
-    // &:active{
-    //     color: $check;
-    //     background-color: $text-color;
-    // }
+        margin-bottom: 0;
     }
 }
 
 
 .form-footer {
+    
     &__list {
         display: flex;
         justify-content: space-between;
     }
+    
     &__link {
         font-size: 13px;
         font-weight: 400;
         color: $text-color;
         opacity: .6;
         border-bottom: 1px solid rgba(251,251,251,.6);
+        
         &:hover {
             color: $text-color;
             opacity: 1;
