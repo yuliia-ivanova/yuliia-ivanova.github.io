@@ -14,10 +14,10 @@
                 <form action="#" method="get" class="form-field" id="data">
                     <ul class="form-nav__list">
                         <li class="form-nav__item">
-                            <a href="#" class="form-nav__link">Sign in</a>
+                            <a href="index.html#" class="form-nav__link">Sign in</a>
                         </li>
                         <li class="form-nav__item">
-                            <a href="#" class="form-nav__link">Join us</a>
+                            <a href="join.html#" class="form-nav__link">Join us</a>
                         </li>
                     </ul>
                     <div class="form">
@@ -30,24 +30,16 @@
                         <input class="form__input" type="password" autocomplete="off" required id="password" name="password" minlength="7">
                         <span class="form__error">min value of input 7 simbols</span>
                     </div>
-                    <div class="form-checkbox">
-                        <input class="form-checkbox__btn" type="checkbox" id="checkbox" checked>
-                        <label for="checkbox" class="form-checkbox__label">Keep me signed in</label>
+                     <div class="form">
+                        <label for="password" class="form__label">repeat password</label>
+                        <input class="form__input" type="password" autocomplete="off" required id="password" name="password" minlength="7">
+                        <span class="form__error">min value of input 7 simbols</span>
                     </div>
-                    <button type="submit" class="form-btn" form="data">sign in</button>
-                    <ul class="form-footer__list">
-                        <li class="form-footer__item">
-                            <a href="#" class="form-footer__link">Forgot password</a>
-                        </li>
-                        <li class="form-footer__item">
-                            <a href="#" class="form-footer__link">Create an account</a>
-                        </li>
-                    </ul>
+                    <button type="submit" class="form-btn form-btn__join" form="data">sign in</button>
                 </form>
             </div>
         </div>
     </div>
-
 	<script src="js/bundle.js"></script>
 </body>
 </html>
