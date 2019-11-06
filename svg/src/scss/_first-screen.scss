@@ -1,5 +1,5 @@
 .dl-first-screen {
-	background: url(../img/hero-bg.jpg);
+	background-image: url(../img/hero-bg.jpg);
 	background-size: cover;
 }
 
@@ -22,7 +22,7 @@
 	text-transform: uppercase;
 
 	&__title {
-		font-size: 3.9rem;
+		font-size: $fs-title-size;
 		letter-spacing: .5rem;
 		font-weight: 700;
 		margin-bottom: 20px;

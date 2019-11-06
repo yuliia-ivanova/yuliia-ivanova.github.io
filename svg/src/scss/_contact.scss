@@ -3,11 +3,34 @@
 	border: 2px solid $bc-dark;
 	border-top: none;
 
-	&::before {	
+
+	&::before {
 		border-top: 2px solid $bc-dark;
-	    }  
+	    }
 
 	&::after {
 		border-top: 2px solid $bc-dark;
+	}
+}
+
+.dl-contact {
+		padding: 100px 0 0;
+
+	&__text {
+		margin-bottom: 20px;
+	}
+
+	&__link {
+	width: 100%;
+	max-width: 390px;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	background-color: $submit;
+	color: $text-white;
+	font-family: $text-subtitle;
+	letter-spacing: 3px;
+	font-weight: 400;
+	text-transform: uppercase;
 	}
 }

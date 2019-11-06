@@ -1,17 +1,18 @@
-//fonts
+//fonts-family
 $text-title: 'LatoBold', sans-serif;
-$text-subtitle : 'LatoRegular', sans-serif;
+$text-subtitle: 'LatoRegular', sans-serif;
 $text: 'LatoLight', sans-serif;
-
+//fonts-size
+$base-size: 15px;
+$fs-title-size: 54px;
+$title-size: 34px;
+$subtitle-size: 20px;
 //colors
 $text-dark: #3c3c3c;
 $text-white: #fff;
 $bc-dark: #3c3c3c;
 $bc-white: #fff;
 $submit: #3c3c3c;
+
 $transition: all .3s ease;
 
-$base-size: 15px;
-
-$title-size: 34px;
-$subtitle-size: 20px;

@@ -32,8 +32,8 @@
 	max-width: 900px;
 	text-align: center;
 	padding: 50px 0 30px;
-	
-	&__title {		
+
+	&__title {
 		font-family: $text-title;
 		font-size: $title-size;
 		letter-spacing: 5px;
@@ -61,7 +61,7 @@
 		width: 30%;
 	    top: 0;
 	    left: 0;
-		}  
+	}
 
 	&::after {
 		content: "";
@@ -73,7 +73,7 @@
 }
 
 .dl-inner {
-	
+
 	&:not(:last-child) {
 		margin-bottom: 50px;
 		}
@@ -82,7 +82,7 @@
 		margin-bottom: 20px;
 	}
 
-	&__subtitle {		
+	&__subtitle {
 		font-family: $text-subtitle;
 		font-size: $subtitle-size;
 		letter-spacing: 3px;
@@ -101,14 +101,15 @@
 	}
 }
 
-// ul {
-// 	list-style: none;
-// 	li {
-// 		a {
-// 			display: flex;
-// 		}
-// 	}
-// }
+ul {
+	list-style: none;
+	li {
+		a {
+			display: flex;
+			text-decoration: none;
+		}
+	}
+}
 
 a {
 	display: flex;

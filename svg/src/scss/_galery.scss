@@ -1,3 +1,31 @@
 .dl-galery {
-	
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+
+	}
+
+	&__link {
+		position: relative;
+		align-items: flex-end;
+	}
+
+	&__img {
+		object-fit: contain;
+	}
+
+	&__title {
+		font-family: $text-title;
+		font-size: $subtitle-size;
+		color: $text-white;
+		letter-spacing: 5px;
+		font-weight: 700;
+		text-transform: uppercase;
+		position: absolute;
+		padding: 0 0 30px 30px;
+	}
 }
