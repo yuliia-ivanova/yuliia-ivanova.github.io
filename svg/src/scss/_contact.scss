@@ -1,0 +1,13 @@
+.dl-contact-content {
+	color: $text-dark;
+	border: 2px solid $bc-dark;
+	border-top: none;
+
+	&::before {	
+		border-top: 2px solid $bc-dark;
+	    }  
+
+	&::after {
+		border-top: 2px solid $bc-dark;
+	}
+}

@@ -1,0 +1,18 @@
+.dl-services {
+	background: url(../img/services.jpg);
+	background-size: cover;
+}
+
+.dl-services-content {
+	color: $text-white;
+	border: 2px solid $bc-white;
+	border-top: none;
+
+	&::before {	
+		border-top: 2px solid $bc-white;
+	    }  
+
+	&::after {
+		border-top: 2px solid $bc-white;
+	}
+}

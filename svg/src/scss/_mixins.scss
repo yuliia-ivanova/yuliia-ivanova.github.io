@@ -15,24 +15,6 @@
 	}
 }
 
-@mixin layout {
-
-	&::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		@content;
-	}
-}
-
-@mixin square($size) {
-	width: $size;
-	height: $size;
-}
-
 @mixin media-hidden {
     @media only screen and (max-width: 319px) {
         display: none;
