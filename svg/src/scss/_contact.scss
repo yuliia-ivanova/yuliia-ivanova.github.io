@@ -32,5 +32,13 @@
 	letter-spacing: 3px;
 	font-weight: 400;
 	text-transform: uppercase;
+		
+		&:hover {
+			background-color: $text-white;
+			color: $submit;
+			border: 2px solid $submit;
+			box-shadow: 0 0 5px $submit;
+			transition: $transition;
+		}
 	}
 }
