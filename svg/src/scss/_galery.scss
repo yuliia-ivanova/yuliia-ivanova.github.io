@@ -11,7 +11,8 @@
 	&__link {
 		width: 100%;
 		min-height: 235px;
-		align-items: flex-end;	
+		align-items: flex-end;
+		position: relative;	
 
 		&:hover {
 			box-shadow: 0 0 5px $submit;
@@ -28,7 +29,9 @@
 		letter-spacing: 5px;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: 15px;
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
 	}
 }
 
