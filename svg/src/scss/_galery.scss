@@ -1,5 +1,5 @@
 .dl-galery {
-		
+
 	&__list {
 		display: flex;
 		flex-wrap: wrap;
@@ -18,11 +18,11 @@
 			box-shadow: 0 0 5px $submit;
 			opacity: .9;
 			transition: $transition;
-			text-shadow: 2px 2px 4px $text-dark; 
+			text-shadow: 2px 2px 4px $text-dark;
 		}
 	}
 
-	&__title {		
+	&__title {
 		font-family: $text-title;
 		font-size: $subtitle-size;
 		color: $text-white;
@@ -37,38 +37,38 @@
 
 .size50 {
 	min-width: 50%;
- }
+}
 
 .size25 {
 	min-width: 24%;
- }
+}
 
- .topworks {
+.topworks {
 	background-image: url(../img/topworks.png);
 	background-size: cover;
- }
+}
 
- .join {
+.join {
 	background-image: url(../img/join.png);
 	background-size: cover;
- }
+}
 
- .market {
+.market {
 	background-image: url(../img/market.png);
 	background-size: cover;
- }
+}
 
- .worktop {
+.worktop {
 	background-image: url(../img/worktop.png);
 	background-size: cover;
- }
+}
 
- .lable {
+.lable {
 	background-image: url(../img/lable.png);
 	background-size: cover;
- }
+}
 
- .kyiv {
+.kyiv {
  	background-image: url(../img/kyiv.png);
 	background-size: cover;
- }
+}

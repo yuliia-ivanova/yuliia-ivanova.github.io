@@ -52,7 +52,6 @@
 		font-size: $base-size;
 		line-height: 1.5rem;
 		font-weight: 300;
-
 	}
 
 	&::before {
@@ -76,7 +75,7 @@
 
 	&:not(:last-child) {
 		margin-bottom: 50px;
-		}
+	}
 
 	&__icon {
 		margin-bottom: 20px;

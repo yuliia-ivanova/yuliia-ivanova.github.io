@@ -3,30 +3,11 @@
 	border: 2px solid $bc-dark;
 	border-top: none;
 
-	&::before {	
+	&::before {
 		border-top: 2px solid $bc-dark;
-	    }  
+	    }
 
 	&::after {
 		border-top: 2px solid $bc-dark;
 	}
-
-	// &__title {		
-	// 	font-family: $text-title;
-	// 	font-size: $title-size;
-	// 	letter-spacing: 5px;
-	// 	font-weight: 700;
-	// 	text-transform: uppercase;
-	// 	position: absolute;
-	// 	top: -10%;
-	// }
-
-	// &__text {
-	// 	width: 100%;
-	// 	max-width: 555px;
-	// 	font-family: $text;
-	// 	font-size: $base-size;
-	// 	line-height: 1.5rem;
-	// 	font-weight: 300;
-	// }
 }
