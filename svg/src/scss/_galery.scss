@@ -2,10 +2,22 @@
 
 	&__list {
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: column;
 		justify-content: space-between;
 		align-content: space-between;
-		min-height: 480px;
+		min-height: 1450px;
+
+		@include sm-screen {
+			flex-direction: row;
+			flex-wrap: wrap;
+			min-height: 725px;
+		}
+
+		@include md-screen {
+			flex-direction: row;
+			flex-wrap: wrap;
+			min-height: 480px;
+		}
 	}
 
 	&__link {
@@ -13,6 +25,11 @@
 		min-height: 235px;
 		align-items: flex-end;
 		position: relative;	
+
+		@include sm-screen {
+			width: 100%;
+			min-width: 50%;
+		}
 
 		&:hover {
 			box-shadow: 0 0 5px $submit;
@@ -24,7 +41,7 @@
 
 	&__title {
 		font-family: $text-title;
-		font-size: $subtitle-size;
+		font-size: px_to_em($subtitle-size);
 		color: $text-white;
 		letter-spacing: 5px;
 		font-weight: 700;
@@ -36,11 +53,31 @@
 }
 
 .size50 {
-	min-width: 50%;
+	@include xs-screen {
+		min-width: 100%;
+	}
+
+	@include sm-screen {
+		min-width: 49%;
+	}
+
+	@include md-screen {
+		min-width: 50%;
+	}
 }
 
 .size25 {
-	min-width: 24%;
+	@include xs-screen {
+		width: 100%;
+	}
+
+	@include sm-screen {
+		min-width: 49%;
+	}
+
+	@include md-screen {
+		min-width: 24%;
+	}
 }
 
 .topworks {

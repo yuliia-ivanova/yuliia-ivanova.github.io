@@ -18,7 +18,15 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 100px 0;
+	padding: 30px 0;
+
+	@include sm-screen {
+		padding: 50px 0;
+	}
+
+	@include md-screen {
+		padding: 100px 0;
+	}
 }
 
 .dl-wrapper {
@@ -31,25 +39,39 @@
 	width: 100%;
 	max-width: 900px;
 	text-align: center;
-	padding: 50px 5px 30px;
+	padding: 20px 5px 10px;
+
+	@include md-screen {
+			padding: 50px 5px 30px;
+		}
 
 	&__title {
 		font-family: $text-title;
-		font-size: $title-size;
-		letter-spacing: 5px;
+		font-size: px_to_em($base-size);
+		letter-spacing: 3px;
 		font-weight: 700;
 		text-transform: uppercase;
 		position: absolute;
 		top: 0;
 		left: 50%;
 		transform: translate(-50%, -50%);
+
+		@include sm-screen {
+			font-size: px_to_em(24px);
+			letter-spacing: 5px;
+		}
+
+		@include md-screen {
+			font-size: px_to_em($title-size);
+			
+		}
 	}
 
 	&__text {
 		width: 100%;
 		max-width: 550px;
 		font-family: $text;
-		font-size: $base-size;
+		font-size: px_to_em($base-size);
 		line-height: 1.5rem;
 		font-weight: 300;
 	}
@@ -57,44 +79,75 @@
 	&::before {
 		content: "";
 		position: absolute;
-		width: 30%;
+		width: 20%;
 	    top: 0;
 	    left: 0;
+
+	    @include sm-screen {
+			width: 30%;
+		}
 	}
 
 	&::after {
 		content: "";
 		position: absolute;
-		width: 30%;
+		width: 20%;
 	    top: 0;
 		right: 0;
+
+		@include sm-screen {
+			width: 30%;
+		}
 	}
 }
 
 .dl-inner {
 
 	&:not(:last-child) {
-		margin-bottom: 50px;
+		margin-bottom: 20px;
+
+		@include sm-screen {
+			margin-bottom: 50px;
+		}
 	}
 
 	&__icon {
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+    	width: 40px; 
+		height: 45px;
+      	
+      	@include sm-screen {
+			width: 60px; 
+			height: 70px;
+			margin-bottom: 15px;
+		}
+
+		@include md-screen {
+			width: 80px; 
+			height: 90px;
+			margin-bottom: 20px;
+			
+		}
 	}
 
 	&__subtitle {
 		font-family: $text-subtitle;
-		font-size: $subtitle-size;
+		font-size: px_to_em($base-size);
 		letter-spacing: 3px;
 		font-weight: 700;
 		text-transform: uppercase;
 		margin-bottom: 20px;
+
+		@include md-screen {
+			font-size: px_to_em($subtitle-size);
+		}
 	}
 
 	&__text {
 		width: 100%;
 		max-width: 550px;
 		font-family: $text;
-		font-size: $base-size;
+		font-size: px_to_em($base-size);
 		line-height: 1.6rem;
 		font-weight: 300;
 	}
