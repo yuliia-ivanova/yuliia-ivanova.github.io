@@ -6,10 +6,22 @@
 .fs-wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	min-height: 100vh;
-	padding: 50px 0;
+	padding: 50px 10px;
+
+	&__logo {
+		@include xs-screen {
+			display: none;
+		}	
+	}
+
+	&__scroll {
+		@include xs-screen {
+			display: none;
+		}	
+	}
 }
 
 .fs-inner {
@@ -22,14 +34,18 @@
 	text-transform: uppercase;
 
 	&__title {
-		font-size: $fs-title-size;
+		font-size: px_to_em($title-size);
 		letter-spacing: .5rem;
 		font-weight: 700;
 		margin-bottom: 20px;
+
+		@include md-screen {
+			font-size: px_to_em($fs-title-size);
+		}
 	}
 
 	&__text {
-		font-size: $base-size;
+		font-size: px_to_em($base-size);
 		letter-spacing: 1px;
 		line-height: 1.6rem;
 		font-weight: 400;
