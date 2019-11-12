@@ -1,3 +1,55 @@
+.dl-wrapper {
+
+	&__item:not(:last-child) {
+		margin-bottom: 20px;
+
+		@include sm-screen {
+			margin-bottom: 50px;
+		}
+	}
+
+	&__icon {
+		margin-bottom: 10px;
+    	width: 40px;
+		height: 45px;
+
+      	@include sm-screen {
+			width: 60px;
+			height: 70px;
+			margin-bottom: 15px;
+		}
+
+		@include md-screen {
+			width: 80px;
+			height: 90px;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__subtitle {
+		font-family: $text-subtitle;
+		font-size: px_to_em($base-size);
+		letter-spacing: 3px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+
+		@include md-screen {
+			font-size: px_to_em($subtitle-size);
+		}
+	}
+
+	&__text {
+		width: 100%;
+		max-width: 550px;
+		font-family: $text;
+		font-size: px_to_em($base-size);
+		line-height: 1.6rem;
+		font-weight: 300;
+	}
+}
+
+
 .dl-works-content {
 	color: $text-dark;
 	border: 2px solid $bc-dark;
