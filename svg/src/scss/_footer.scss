@@ -4,7 +4,7 @@
 	align-items: center;
 	padding: 20px 0;
 
-	&__img {
+	&__link {
 		margin-right: 10px;
 		width: 20px;
 		height: 25px;
@@ -19,6 +19,21 @@
 			width: 35px;
 			height: 40px;
 			margin-right: 20px;
+		}
+	}
+
+	&__logo {
+		width: 20px;
+		height: 25px;
+
+      	@include sm-screen {
+			width: 25px;
+			height: 30px;
+		}
+
+		@include md-screen {
+			width: 35px;
+			height: 40px;
 		}
 	}
 

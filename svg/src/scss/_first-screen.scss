@@ -9,18 +9,12 @@
 	justify-content: space-around;
 	align-items: center;
 	min-height: 100vh;
-	padding: 50px 10px;
-
-	&__logo {
-		@include xs-screen {
-			display: none;
-		}	
-	}
+	padding: 0 10px;
 
 	&__scroll {
 		@include xs-screen {
 			display: none;
-		}	
+		}
 	}
 }
 

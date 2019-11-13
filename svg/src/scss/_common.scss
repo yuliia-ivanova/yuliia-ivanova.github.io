@@ -8,7 +8,7 @@
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -37,7 +37,6 @@
 	align-items: center;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 900px;
 	text-align: center;
 	padding: 20px 5px 10px;
 
@@ -63,7 +62,6 @@
 
 		@include md-screen {
 			font-size: px_to_em($title-size);
-			
 		}
 	}
 
@@ -98,58 +96,6 @@
 		@include sm-screen {
 			width: 30%;
 		}
-	}
-}
-
-.dl-inner {
-
-	&:not(:last-child) {
-		margin-bottom: 20px;
-
-		@include sm-screen {
-			margin-bottom: 50px;
-		}
-	}
-
-	&__icon {
-		margin-bottom: 10px;
-    	width: 40px; 
-		height: 45px;
-      	
-      	@include sm-screen {
-			width: 60px; 
-			height: 70px;
-			margin-bottom: 15px;
-		}
-
-		@include md-screen {
-			width: 80px; 
-			height: 90px;
-			margin-bottom: 20px;
-			
-		}
-	}
-
-	&__subtitle {
-		font-family: $text-subtitle;
-		font-size: px_to_em($base-size);
-		letter-spacing: 3px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 20px;
-
-		@include md-screen {
-			font-size: px_to_em($subtitle-size);
-		}
-	}
-
-	&__text {
-		width: 100%;
-		max-width: 550px;
-		font-family: $text;
-		font-size: px_to_em($base-size);
-		line-height: 1.6rem;
-		font-weight: 300;
 	}
 }
 
